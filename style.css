@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box
+} 
+
+(https://fonts.google.com/specimen/Lexend+Deca)
+  (https://fonts.google.com/specimen/Big+Shoulders+Display)
+
+body{
+  background-color:hsl(0, 0%, 95%);
+  }
+main{
+  width: 50%;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+height:100vh;
+  
+  
+}
+
+
+.first-column{
+  background-color:hsl(31, 77%, 52%);
+  padding: 2em;
+  border-radius:  10px 0 0 10px;
+}
+
+.first-column h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+.first-column p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family:'Lexend Deca'
+  font-weight: 400;
+  font-size:15px;
+  margin-bottom: 20px;
+  }
+.first-column button {
+  color:hsl(31, 77%, 52%);
+}
+
+
+.second-column{
+background-color:hsl(184, 100%, 22%);
+padding: 2em;
+}
+.second-column h1{
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+.second-column p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family:'Lexend Deca'
+  font-weight: 400;
+  font-size:15px;
+  margin-bottom: 20px;
+}
+.second-column button {
+  color:hsl(184, 100%, 22%);
+}
+
+.third-column{
+  background-color:hsl(179, 100%, 13%);
+  padding: 2em;
+  border-radius:  0 10px 10px 0;
+}
+.third-column h1{
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+}
+.third-column p{
+   color: hsla(0, 0%, 100%, 0.75);
+  font-family:'Lexend Deca'
+  font-weight: 400;
+  font-size:15px;
+  margin-bottom: 20px;
+}
+.third-column button {
+  color:hsl(179, 100%, 13%);
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-family: 'Lexend Deca';
+  font-size: 15;
+  border: solid 2px var(hsl(0, 0%, 95%));
+  background: var(hsl(0, 0%, 95%);
+ 
+}
+
+
+.circle {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    margin-bottom: 20px;
+  }
+  body {
+    height: auto;
+  }
+  .main{
+    flex-direction: column;
+    margin: 16% 0;
+    padding: 8%;
+  }
+  .boxes {
+    padding: 38px 44px;
+  }
+  .box1 {
+    border-radius:  10px 10px 0 0;
+  }
+  
+  .box3 {
+    border-radius:  0 0 10px 10px;
+  }
+  
+}
